@@ -49,8 +49,8 @@ def calculate_contributions():
                     author = line.split("author ")[1]
                     contributions[author] += 1
                     total_lines += 1
-        except:
-            pass
+        except Exception as e:
+            print(e)
 
     # Merge similar names
     contributions = merge_similar_names(contributions)

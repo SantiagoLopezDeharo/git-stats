@@ -6,8 +6,6 @@ This is a python script that can be used to determine quickly how much porcentag
 
 ## Demo
 
-Insert gif or link to demo
-
 ```bash
 $ gitstats
 
